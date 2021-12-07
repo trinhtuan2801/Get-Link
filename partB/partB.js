@@ -27,6 +27,7 @@ getlinkbutton.addEventListener('click', ()=>
             else
             {
                 result.innerHTML = 'Get link failed!'
+                resultlink.innerHTML = ''
             }
             console.log(data)
         })
